@@ -1,6 +1,58 @@
-* {
-    margin: 0;
-    padding: 0;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+html {
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --primary-font-color: white;
+}
+img{
+    box-sizing: content-box;
+}
+.navBar {
+    align-items: center;
+    background-color: black;
+    display: flex;
+    height: 10vh;
+    justify-content:space-between ;
+    padding: 0 15px 0 24px;
+}
+.navBar_logo {
+    height: 48px;
+    width: 162px;
+}
+.navBar_links {
+    float: right;
 }
 
+.navBar_links-list {
+    align-items: center;
+    display: flex;
+    height: 80px;
+}
+.navBar_links-item {
+    color: var(--primary-font-color);
+    display: block;
+    float: right; 
+    margin: 0 15px 0 15px;
+}
+.initial-page {
+    background-color: rgb(50, 145, 234); 
+    background-image: url(premium_dancer.png);
+    background-position-x: right;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+    color: var(--primary-font-color);
+    height: 90vh;
+}
+h1 {
+    font-family: "Montserrat" ,sans-serif ;
+    font-size: 64px;
+    font-weight: 800;
+}
