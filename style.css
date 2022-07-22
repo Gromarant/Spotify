@@ -28,6 +28,7 @@ img{
     width: 162px;
 }
 .navBar_links {
+    font-family: "Montserrat" ,sans-serif ;
     float: right;
 }
 
@@ -43,16 +44,42 @@ img{
     margin: 0 15px 0 15px;
 }
 .initial-page {
-    background-color: rgb(50, 145, 234); 
-    background-image: url(premium_dancer.png);
+    display: flex;
+    flex-direction: column;
+    background-color: #529CF1; 
+    background-image: url(1-images/premium_dancer.png);
     background-position-x: right;
     background-position-y: bottom;
     background-repeat: no-repeat;
     color: var(--primary-font-color);
     height: 90vh;
+    padding: 30px;
+    justify-content: space-between;
 }
-h1 {
+.first-title {
     font-family: "Montserrat" ,sans-serif ;
-    font-size: 64px;
-    font-weight: 800;
+    font-size: 72px;
+    font-weight: 800px;
+    width: 1000px;
+}
+.p-first-page {
+    font-family: "Montserrat" ,sans-serif ;
+    font-size: 26px;
+    font-weight: 800px;
+    width: 75vw;
+}
+.button {
+    border-radius: 50px;
+    background-color:  #26B758;
+    border-style: none;
+    color: white;
+    height: 54px;
+    width: 300px;
+    font-family: "Montserrat" ,sans-serif ;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.first-footer {
+    font-family: sans-serif ;
+    width: 50vw;
 }
