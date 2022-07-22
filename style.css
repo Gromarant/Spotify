@@ -5,7 +5,7 @@ html {
     padding: 0px;
 }
 *, *:before, *:after {
-    box-sizing: inherit;
+    box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
@@ -43,19 +43,18 @@ html {
     float: right; 
     margin: 0 15px 0 15px;
 }
-.initial-page {
+.hero {
     background-color: #529CF1; 
     background-image:  url(1-images/premium_dancer.png);
-    background-position-x: right;
-    background-position-y: bottom;
     background-repeat: no-repeat;
-    background-size: 30%;
+    background-position: 98% 40%;
+    background-size: contain;
     color: var(--primary-font-color);
     display: flex;
     flex-direction: column;
     height: 50vh;
     justify-content: space-between;
-    padding: 40px;
+    padding: 50px;
 }
 .first-title {
     font-family: var(--primary-font);
@@ -63,7 +62,7 @@ html {
     font-weight: 800px;
     width: 1000px;
 }
-.p-first-page {
+.p-hero {
     color: var(--primary-font-color);
     font-family: var(--primary-font) ;
     font-size: 26px;
@@ -81,21 +80,17 @@ html {
     letter-spacing: 0.1em;
     width: 250px;
 }
-.first-footer {
-    font-family: var(sans-serif) ;
-    width: 50vw;
+.conditions {
+    color: var(--primary-font-color);
+    font-family: var(--small-font);
+    width: 600px;
 }
-.second-page {
+.benefits {
     display: flex;
     flex-direction: column;
+    height: 50vh;
     justify-content: space-evenly;
-    padding: 40px 30px 40px 30px;
-    width: 100vw;
-}
-.second-page-footer {
-    background-color: black;
-    height: 15vh;
-    width: 100vw;
+    padding: 40px;
 }
 .second-title {
     font-family: var(--primary-font) ;
@@ -103,11 +98,11 @@ html {
     font-weight: 600px;
     text-align: center;
 }
-.fuctions{
+.fuctions {
     display: flex;
     justify-content: space-between;
 }
-.article {
+.function {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,13 +127,15 @@ html {
     font-size: 14px;
     text-align: --text-center;
 }
-.second-page-footer {
+.footer-page {
+    align-items: center;
+    background-color: black;
     display: flex;
+    height: 12vh;
     justify-content: space-between;
     padding: 0 30px 0 30px;
-    align-items: center;
 }
-.second-footer {
+.footer-links {
     display: flex;
     justify-content: space-around;
     width: 25%;
