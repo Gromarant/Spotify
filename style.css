@@ -22,6 +22,10 @@ html {
     height: 10vh;
     justify-content:space-between ;
     padding: 0 15px 0 24px;
+    position: sticky;
+    top: 0px;
+    width: 100vw;
+    z-index: 1000;
 }
 .navBar_logo {
     height: 48px;
@@ -55,6 +59,8 @@ html {
     height: 50vh;
     justify-content: space-between;
     padding: 50px;
+    position: relative;
+    top: 0px;
 }
 .first-title {
     font-family: var(--primary-font);
