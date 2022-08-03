@@ -32,9 +32,6 @@ html {
 }
 .navBar_menu {
     width: 32px;
-    position: absolute;
-    right: 15px;
-    bottom: 20px;
 }
 .navBar_links-list {
     display: none;
@@ -164,5 +161,8 @@ section.copy-right > p {
     text-align: end;
 }
 
-@media screen (min-width: 600px) and (max-width: 1239px) {}
+@media screen (min-width: 600px) and (max-width: 1239px) {
+    
+}
+
 @media screen (min-width: 1240px) {}
