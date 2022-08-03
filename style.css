@@ -163,3 +163,6 @@ section.copy-right > p {
     font-size: 0.8em;
     text-align: end;
 }
+
+@media screen (min-width: 600px) and (max-width: 1239px) {}
+@media screen (min-width: 1240px) {}
