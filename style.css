@@ -302,12 +302,12 @@ section.copy-right > p {
         top: 0px;
     }
     .first-title {
-        font-size: 3.5rem;
+        font-size: 3.8rem;
         width: 100%;
         margin-top: 16px;
     }
     .p-hero {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .button {
         height: 40px;
@@ -315,7 +315,7 @@ section.copy-right > p {
     }
     .conditions {
         display: inline-block;
-        width: 80%;
+        width: 70%;
     }
     .benefits {
         position: relative;
