@@ -186,7 +186,7 @@ section.copy-right > p {
         color: var(--primary-font-color);
         display: inline;
         font-size: 0.5rem;
-        margin-left: 3%;
+        margin-left: 8px;
     }
     .hero {
         background-image:  url(1-images/premium_dancer.png);
@@ -206,7 +206,6 @@ section.copy-right > p {
     }
     .button {
         height: 40px;
-        padding: 2% 0.1%;
         width: 40%;
     }
     .benefits {
@@ -223,12 +222,12 @@ section.copy-right > p {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 4% 0%;
+        margin: 20px 0px;
         width: 100%;
     }
     .function {
         justify-content: center;
-        gap: 0%;
+        gap: 0px;
         height: 20%;
         width: 49%;
     }
