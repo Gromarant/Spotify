@@ -320,7 +320,7 @@ section.copy-right > p {
     .benefits {
         position: relative;
         top: 0px;
-        padding: 36px 0px;
+        padding: 30px;
     }
     .second-title {
         font-family: var(--primary-font) ;
