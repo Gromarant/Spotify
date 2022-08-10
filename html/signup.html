@@ -8,6 +8,53 @@
         <title>Sign up Spotify</title>
     </head>
     <body>
-        
+        <header class="navBar">
+            <a href=""><img class="logo" src="../1-images/logoSpotify.png" alt="Logo Spotify"></a>
+        </header>
+        <div class="container">
+            <section class="sign-up">
+                <button class="google_btn">
+                    <img src="images/Google_Icon.webp" alt="Google logo">
+                    <span>Registrarse con Facebook</span>
+                </button>
+                <button class="google_btn">
+                    <img src="images/Google_Icon.webp" alt="Google logo">
+                    <span>Registrarse con Google</span>
+                </button>
+            </section>
+            <section class="separator">
+                <hr>
+                <span>  O </span>
+                <hr>
+            </section>
+            <section class="form">
+                <h3>Registrarse con tu correo electrónico</h3>
+                <form action="" method="">
+                    <section class="input_sections">
+                        <label for="name">
+                            <span>Name</span>
+                            <input type="text" id="name" name="name">
+                        </label>
+                        <label for="username">
+                            <span>Username</span>
+                            <input type="text" id="name" name="username">
+                        </label>
+                    </section>
+                    <label for="email">
+                        <span>Email</span>
+                        <input type="email" id="email" name="email">
+                    </label>
+                    <label for="password">
+                        <span>Password</span>
+                        <input type="password" id="password" name="password" placeholder="  6+ characters">
+                    </label>
+                    <label class="checkbox_label" for="checkbox">
+                        <input type="checkbox" id="checkbox" name="checkbox">
+                        <span>I accept politics and notifications</span>
+                    </label>
+                    <button class="submit_btn" type="submit">Create Account</button>
+                </form>
+            </section>
+        </div>
     </body>
 </html>
