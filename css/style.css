@@ -10,6 +10,7 @@
     --text-center: center;
     --primary-font:  "Montserrat" ,sans-serif ;
     --small-font: "roboto";
+    --background-image:  url(/1-images/premium_dancer.png);
 }
 .container {
     width: 100vw;
@@ -191,7 +192,7 @@ section.copy-right > p {
         margin-left: 16px;
     }
     .hero {
-        background-image:  url(1-images/premium_dancer.png);
+        background-image: var(--background-image);
         background-position: 98% 40%;
         background-repeat: no-repeat;
         background-size: contain;
@@ -292,7 +293,7 @@ section.copy-right > p {
         margin-left: 16px;
     }
     .hero {
-        background-image:  url(1-images/premium_dancer.png);
+        background-image:  var(--background-image);
         background-position: 98% 40%;
         background-repeat: no-repeat;
         background-size: contain;
