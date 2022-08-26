@@ -26,7 +26,6 @@
     top: 0px;
     width: 100vw;
     z-index: 1000;
-    font-family: ;
 }
 .navBar_logo {
     height: 32px;
@@ -169,7 +168,7 @@ section.copy-right > p {
 
 @media ( min-width: 481px) and (max-width: 768px) {
     .navBar_logo {
-        height: 48px;
+        height: 36px;
     }
     .navBar_menu {
         display: none;
@@ -181,15 +180,15 @@ section.copy-right > p {
     .navBar_links-list {
         align-items: center;
         display: flex;
-        font-size: 0.5rem;
         justify-content: right;
         width: 100%;
+        
     }
     .navBar_links-item {
         color: var(--primary-font-color);
         display: inline;
-        font-size: 0.8rem;
-        margin-left: 16px;
+        font-size: 0.64rem;
+        margin-left: 0.4rem;
     }
     .hero {
         background-image: var(--background-image);
