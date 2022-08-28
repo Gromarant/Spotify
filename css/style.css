@@ -50,8 +50,8 @@
 .first-title {
     font-family: var(--primary-font);
     font-size: 2.3rem;
-    font-weight: 700px;
-    margin-top: 50px;
+    font-weight: 700;
+    margin-top: 3rem;
 }
 .p-hero {
     color: var(--primary-font-color);
