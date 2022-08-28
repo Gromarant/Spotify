@@ -318,7 +318,6 @@ section.copy-right > p {
     .fuctions {
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: space-between;
         margin: 20px 0px;
         width: 100%;
     }
