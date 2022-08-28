@@ -294,14 +294,13 @@ section.copy-right > p {
     }
     .first-title {
         font-size: 3.8rem;
-        width: 100%;
         margin-top: 16px;
+        width: 100%;
     }
     .p-hero {
         font-size: 1.4rem;
     }
     .button {
-        height: 40px;
         width: 290px;
     }
     .conditions {
