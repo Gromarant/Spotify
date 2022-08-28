@@ -322,7 +322,6 @@ section.copy-right > p {
         width: 100%;
     }
     .function {
-        display: flex;
         flex-direction: column;
         height: 20%;
         justify-content: space-between;
