@@ -318,7 +318,7 @@ section.copy-right > p {
     .functions {
         flex-direction: row;
         flex-wrap: nowrap;
-        margin: 20px 0px;
+        margin: 1.3rem 0rem;
         width: 100%;
     }
     .function {
