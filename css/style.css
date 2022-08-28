@@ -143,7 +143,7 @@
 .footer-link {
     color:rgb(157, 153, 149);
     font-family: var(--small-font);
-    font-size: 0.8em;
+    font-size: 0.8rem;
     text-decoration: none;
 }
 .copy-right {
