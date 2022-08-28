@@ -88,7 +88,7 @@
 .second-title {
     font-family: var(--primary-font) ;
     font-size: 1.9rem;
-    font-weight: 600px;
+    font-weight: 600;
     text-align: center;
 }
 .functions {
@@ -101,8 +101,8 @@
 .function {
     align-items: center;
     display: flex;
-    gap: 10px;
-    margin: 20px 0px;
+    gap: 0.6rem;
+    margin: 1.3rem 0rem;
     width: 80%;
 }
 .article-img {
