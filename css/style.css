@@ -308,15 +308,12 @@ section.copy-right > p {
         width: 70%;
     }
     .benefits {
+        padding: 30px;
         position: relative;
         top: 0px;
-        padding: 30px;
     }
     .second-title {
-        font-family: var(--primary-font) ;
         font-size: 2rem;
-        font-weight: 600px;
-        text-align: center;
     }
     .fuctions {
         flex-direction: row;
