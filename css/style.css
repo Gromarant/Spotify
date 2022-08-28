@@ -261,7 +261,7 @@ section.copy-right > p {
 
 @media (min-width: 769px) {
     .navBar_logo {
-        height: 48px;
+        height: 3rem;
     }
     .navBar_menu {
         display: none;
