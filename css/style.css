@@ -41,10 +41,10 @@
     color: var(--primary-font-color);
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 0.9rem;
     height: 50vh;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 1.3rem;
     width: 100vw;
 }
 .first-title {
