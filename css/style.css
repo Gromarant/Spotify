@@ -57,7 +57,7 @@
     color: var(--primary-font-color);
     font-family: var(--primary-font) ;
     font-size: 1.2rem;
-    font-weight: 600px;
+    font-weight: 600;
     line-height: 150%;
 }
 .button {
@@ -66,9 +66,9 @@
     border-style: none;
     color: white;
     font-family: var(--primary-font) ;
-    font-size: 0.8em;
+    font-size: 0.8rem;
     height: 40px;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1rem;
     width: 100%;
 }
 .conditions {
