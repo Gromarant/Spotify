@@ -13,6 +13,7 @@
         </header>
         <div class="container">
             <section class="sign-up">
+                <h1>Regístrate gratis para escuchar.</h1>
                 <button class="google_btn">
                     <img src="images/Google_Icon.webp" alt="Google logo">
                     <span>Registrarse con Facebook</span>
@@ -31,28 +32,52 @@
                 <h3>Registrarse con tu correo electrónico</h3>
                 <form action="" method="">
                     <section class="input_sections">
-                        <label for="name">
-                            <span>Name</span>
-                            <input type="text" id="name" name="name">
+                        <label for="email">
+                            <span>¿Cuál es tu correo electrónico?</span>
+                            <input type="email" id="email" name="Email" placeholder="Pon tu correo electrónico.">
                         </label>
-                        <label for="username">
-                            <span>Username</span>
-                            <input type="text" id="name" name="username">
+                        <label for="configEmail">
+                            <span>Confirma el correo electrónico</span>
+                            <input type="email" id="configEmail" name="configEmail" placeholder="Vuelve a poner tu correo electrónico.">
                         </label>
                     </section>
-                    <label for="email">
-                        <span>Email</span>
-                        <input type="email" id="email" name="email">
-                    </label>
                     <label for="password">
-                        <span>Password</span>
-                        <input type="password" id="password" name="password" placeholder="  6+ characters">
+                        <span>Crea una contraseña</span>
+                        <input type="password" id="password" name="password" placeholder="Crea una contraseña.">
                     </label>
-                    <label class="checkbox_label" for="checkbox">
-                        <input type="checkbox" id="checkbox" name="checkbox">
-                        <span>I accept politics and notifications</span>
+                    <label for="name">
+                        <span>¿Cómo quieres que te llamemos?</span>
+                        <input type="text" id="name" name="name" placeholder="Pon tu nombre de perfil.">
+                        <p>Esto aparece en tu perfil.</p>
                     </label>
-                    <button class="submit_btn" type="submit">Create Account</button>
+                    <label for="day">
+                        <span>Día</span>
+                        <input type="day" name="day" id="day" placeholder="DD">
+                    </label>
+                    <label for="month">
+                        <span>Mes</span>
+                        <input type="month" name="month" id="month" placeholder="Mes">
+                    </label>
+                    <label for="year">
+                        <span>Año</span>
+                        <input type="year" name="year" id="year" placeholder="AAAA">
+                    </label>
+                    <label for="gender">
+                        <input type="radio" name="man" id="gender">
+                        <span>Hombre</span>
+                        <input type="radio" name="woman" id="gender">
+                        <span>Mujer</span>
+                        <input type="radio" name="nonbinary" id="gender">
+                        <span>No binario</span>
+                    </label>
+                    <label class="" for="promotion">
+                        <input type="checkbox" id="promotion" name="publicity">
+                        <span>Quiero que me enviéis novedades y ofertas de Spotify</span>
+                        <input type="checkbox" id="promotion" name="dataMarketing">
+                        <span>Compartir mis datos de registro con los proveedores de contenidos de Spotify para fines de marketing. Ten en cuenta que tus datos pueden ser transferidos a un país de fuera del EEE, tal y como se recoge en nuestra política de privacidad</span>
+                    </label>
+                    <button class="submit_btn" type="submit">Registrarte</button>
+                    <p>¿Ya tienes cuenta? <a href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F__noul__%3Fl2l%3D1%26nd%3D1&_locale=es-ES">inicia sesión</a></p>
                 </form>
             </section>
         </div>
