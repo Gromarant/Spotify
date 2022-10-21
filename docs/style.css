@@ -28,7 +28,7 @@
     z-index: 1000;
 }
 .navBar_logo {
-    height: 2.5rem;
+    height: 2rem;
 }
 .navBar_menu {
     width: 2rem;
@@ -39,26 +39,24 @@
 .hero {
     background-color: #529CF1;
     color: var(--primary-font-color);
-    height: fit-content;
-    padding: 2.5rem 1.5rem;
-    width: 100vw;
-}
-.hero-content {
     display: flex;
     flex-direction: column;
+    gap: 0.9rem;
+    height: 50vh;
     justify-content: space-evenly;
-    gap: 1.5rem;
+    padding: 1.3rem;
+    width: 100vw;
 }
 .first-title {
     font-family: var(--primary-font);
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 700;
     margin-top: 3rem;
 }
 .p-hero {
     color: var(--primary-font-color);
     font-family: var(--primary-font) ;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
     line-height: 150%;
 }
@@ -69,7 +67,7 @@
     color: white;
     font-family: var(--primary-font) ;
     font-size: 0.8rem;
-    height: 52px;
+    height: 40px;
     letter-spacing: 0.1rem;
     width: 100%;
 }
@@ -82,7 +80,6 @@
 .benefits {
     align-items: center;
     display: flex;
-    gap: 2rem;
     flex-direction: column;
     justify-content: space-evenly;
     padding: 2rem 0.5rem;
@@ -109,8 +106,8 @@
     width: 80%;
 }
 .article-img {
-    height: 35%;
-    width: 35%;
+    height: 30%;
+    width: 30%;
 }
 .article-text {
     font-size: 2.5rem;
@@ -171,7 +168,7 @@ section.copy-right > p {
 
 @media ( min-width: 481px) and (max-width: 768px) {
     .navBar_logo {
-        height: 3rem;
+        height: 2rem;
     }
     .navBar_menu {
         display: none;
@@ -190,31 +187,28 @@ section.copy-right > p {
     .navBar_links-item {
         color: var(--primary-font-color);
         display: inline;
-        font-size: 0.9rem;
-        margin-left: 0.8rem;
+        font-size: 0.64rem;
+        margin-left: 0.4rem;
     }
     .hero {
         background-image: var(--background-image);
         background-position: 98% 40%;
         background-repeat: no-repeat;
         background-size: contain;
-        padding: 2.5rem 0;
+        justify-content: space-between;
         position: relative;
         top: 0px;
     }
-    .hero-content {
-        padding: 0rem 1.5rem;
-    }
     .first-title {
-        font-size: 3.2rem;
+        font-size: 3rem;
         width: 100%;
-        margin-top: 0.2rem;
+        margin-top: 2rem;
     }
     .p-hero {
         font-size: 1.2rem;
     }
     .button {
-        width: 200px;
+        width: 290px;
     }
     .benefits {
         padding: 2rem 1rem;
@@ -231,7 +225,7 @@ section.copy-right > p {
         width: 100%;
     }
     .function {
-        gap: 0.8rem;
+        gap: 0px;
         height: 20%;
         justify-content: center;
         width: 49%;
@@ -245,7 +239,7 @@ section.copy-right > p {
         width: 100%;
     }
     .article-title {
-        font-size: 1rem;
+        font-size: 0.7rem;
         font-weight: bold;
     }
     .article-description {
@@ -264,28 +258,10 @@ section.copy-right > p {
         margin-top: 0px;
     }
 }
-@media (orientation: landscape) {
-    .navBar {
-        height: fit-content;
-    }
-    .footer-page {
-        height: 20vh;
-    }
-    .footer-link {
-        font-size: 0.9rem;
-    }
-    .copy-right {
-        gap: 0.5rem;
-        font-size: 0.9rem;
-    }
-}
+
 @media (min-width: 769px) {
-    .navBar {
-        height: 102px;
-    }
     .navBar_logo {
-        height: 3.5rem;
-        padding-left: 2rem;
+        height: 3rem;
     }
     .navBar_menu {
         display: none;
@@ -304,45 +280,35 @@ section.copy-right > p {
     .navBar_links-item {
         color: var(--primary-font-color);
         display: inline;
-        font-size: 0.9rem;
-        margin-left: 1.5rem;
+        font-size: 0.8rem;
+        margin-left: 1rem;
     }
     .hero {
         background-image:  var(--background-image);
         background-position: 98% 40%;
         background-repeat: no-repeat;
         background-size: contain;
-        gap: 2.5rem;
         justify-content: space-between;
         position: relative;
         top: 0px;
     }
-    .hero-content {
-        width: 100%;
-    }
     .first-title {
-        font-size: 4.2rem;
+        font-size: 3.8rem;
         margin-top: 1rem;
-        padding-left: 2rem;
         width: 100%;
     }
     .p-hero {
         font-size: 1.4rem;
-        padding-left: 2rem;
     }
     .button {
-        height: 52px;
-        width: 200px;
-        margin-left: 2rem;
+        width: 290px;
     }
     .conditions {
         display: inline-block;
-        padding-left: 2rem;
         width: 70%;
     }
     .benefits {
-        gap: 2rem;
-        padding: 3.5rem 2rem;
+        padding: 2rem;
         position: relative;
         top: 0px;
     }
@@ -358,7 +324,6 @@ section.copy-right > p {
     .function {
         flex-direction: column;
         height: 20%;
-        gap: 1rem;
         justify-content: space-between;
         margin: 0rem 1.3rem;
         text-align: center;
@@ -372,7 +337,7 @@ section.copy-right > p {
         font-size: 3rem;
     }
     .article-title {
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin-bottom: 0.5rem;
     }
     .article-description {
