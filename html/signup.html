@@ -8,30 +8,30 @@
         <title>Sign up Spotify</title>
     </head>
     <body>
-        <header class="navBar">
-            <a href=""><img class="logo" src="../1-images/logoSpotify.png" alt="Logo Spotify"></a>
-        </header>
-        <div class="container">
-            <section class="sign-up">
-                <h1>Regístrate gratis para escuchar.</h1>
-                <button class="google_btn">
-                    <img src="images/Google_Icon.webp" alt="Google logo">
-                    <span>Registrarse con Facebook</span>
-                </button>
-                <button class="google_btn">
-                    <img src="images/Google_Icon.webp" alt="Google logo">
-                    <span>Registrarse con Google</span>
-                </button>
-            </section>
-            <section class="separator">
-                <hr>
-                <span>  O </span>
-                <hr>
-            </section>
-            <section class="form">
-                <h3>Registrarse con tu correo electrónico</h3>
-                <form action="" method="">
-                    <section class="input_sections">
+        <!-- <div class="container-content"> -->
+            <div class="container">
+                <header class="navBar">
+                    <a href="index.html"><img class="logo" src="https://developer.spotify.com/assets/branding-guidelines/logo-size.svg" alt="Logo Spotify"></a>
+                </header>
+                <section class="sign-up">
+                    <h1 class="title">Regístrate gratis para escuchar.</h1>
+                    <button class="btn facebook-btn">
+                        <img class="button-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png" alt="Facebook">
+                        <span>Registrarse con Facebook</span>
+                    </button>
+                    <button class="btn google_btn">
+                        <img class="button-icon" src="../1-images/google.png" alt="Google logo">
+                        <span>Registrarse con Google</span>
+                    </button>
+                </section>
+                <section class="separator">
+                    <hr>
+                    <span>  O </span>
+                    <hr>
+                </section>
+                <section class="form">
+                    <h2 class="form-title">Registrarse con tu correo electrónico</h2>
+                    <form class="form-inputs" action="/" method="#">
                         <label for="email">
                             <span>¿Cuál es tu correo electrónico?</span>
                             <input type="email" id="email" name="Email" placeholder="Pon tu correo electrónico.">
@@ -40,46 +40,56 @@
                             <span>Confirma el correo electrónico</span>
                             <input type="email" id="configEmail" name="configEmail" placeholder="Vuelve a poner tu correo electrónico.">
                         </label>
-                    </section>
-                    <label for="password">
-                        <span>Crea una contraseña</span>
-                        <input type="password" id="password" name="password" placeholder="Crea una contraseña.">
-                    </label>
-                    <label for="name">
-                        <span>¿Cómo quieres que te llamemos?</span>
-                        <input type="text" id="name" name="name" placeholder="Pon tu nombre de perfil.">
-                        <p>Esto aparece en tu perfil.</p>
-                    </label>
-                    <label for="day">
-                        <span>Día</span>
-                        <input type="day" name="day" id="day" placeholder="DD">
-                    </label>
-                    <label for="month">
-                        <span>Mes</span>
-                        <input type="month" name="month" id="month" placeholder="Mes">
-                    </label>
-                    <label for="year">
-                        <span>Año</span>
-                        <input type="year" name="year" id="year" placeholder="AAAA">
-                    </label>
-                    <label for="gender">
-                        <input type="radio" name="man" id="gender">
-                        <span>Hombre</span>
-                        <input type="radio" name="woman" id="gender">
-                        <span>Mujer</span>
-                        <input type="radio" name="nonbinary" id="gender">
-                        <span>No binario</span>
-                    </label>
-                    <label class="" for="promotion">
-                        <input type="checkbox" id="promotion" name="publicity">
-                        <span>Quiero que me enviéis novedades y ofertas de Spotify</span>
-                        <input type="checkbox" id="promotion" name="dataMarketing">
-                        <span>Compartir mis datos de registro con los proveedores de contenidos de Spotify para fines de marketing. Ten en cuenta que tus datos pueden ser transferidos a un país de fuera del EEE, tal y como se recoge en nuestra política de privacidad</span>
-                    </label>
-                    <button class="submit_btn" type="submit">Registrarte</button>
-                    <p>¿Ya tienes cuenta? <a href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F__noul__%3Fl2l%3D1%26nd%3D1&_locale=es-ES">inicia sesión</a></p>
-                </form>
-            </section>
+                        <label for="password">
+                            <span>Crea una contraseña</span>
+                            <input type="password" id="password" name="password" placeholder="Crea una contraseña.">
+                        </label>
+                        <label for="name">
+                            <span>¿Cómo quieres que te llamemos?</span>
+                            <input type="text" id="name" name="name" placeholder="Pon tu nombre de perfil.">
+                            <p class="info">Esto aparece en tu perfil.</p>
+                        </label>
+                        <h2>¿Cuál es tu fecha de nacimiento?</h2>
+                        <div class="birth-inputs">
+                            <label for="day">
+                                <span>Día</span>
+                                <input type="day" name="day" id="day" placeholder="DD">
+                            </label>
+                            <label for="month">
+                                <span>Mes</span>
+                                <input type="month" name="month" id="month" placeholder="Mes">
+                            </label>
+                            <label for="year">
+                                <span>Año</span>
+                                <input type="year" name="year" id="year" placeholder="AAAA">
+                            </label>
+                        </div>
+                        <h2>¿Cuál es tu género?</h2>
+                        <div class="radio-btns">
+                            <label class="radio-options" for="gender">
+                                <input type="radio" name="man" id="gender">
+                                <span>Hombre</span>
+                                <input type="radio" name="woman" id="gender">
+                                <span>Mujer</span>
+                                <input type="radio" name="nonbinary" id="gender">
+                                <span>No binario</span>
+                            </label>
+                        </div>
+                        <div class="promo-data">
+                            <label class="check-btn" for="promotion">
+                                <input type="checkbox" id="promotion" name="publicity">
+                                <span>Quiero que me enviéis novedades y ofertas de Spotify</span>
+                            </label>
+                            <label class="check-btn" for="data">
+                                <input type="checkbox" id="data" name="dataMarketing">
+                                <span>Compartir mis datos de registro con los proveedores de contenidos de Spotify para fines de marketing. Ten en cuenta que tus datos pueden ser transferidos a un país de fuera del EEE, tal y como se recoge en nuestra política de privacidad</span>
+                            </label>
+                        </div>
+                        <button class="submit-btn" type="submit">Registrarte</button>
+                        <p class="login-link">¿Ya tienes cuenta? <a href="https://accounts.spotify.com/en/login?continue=https%3A%2F%2Fopen.spotify.com%2F__noul__%3Fl2l%3D1%26nd%3D1&_locale=es-ES">inicia sesión</a></p>
+                    </form>
+                </section>
+            </div>
         </div>
     </body>
 </html>
