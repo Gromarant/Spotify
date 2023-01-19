@@ -6,7 +6,7 @@
     padding: 0px;
 }
 :root {
-    --background-image:  url(/1-images/premium_dancer.png);
+    --background-image:  url(/images/premium_dancer.png);
     --primary-font-color: white;
     --primary-font:  "Montserrat" ,sans-serif ;
     --small-font: "roboto";
